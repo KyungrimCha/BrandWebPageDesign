@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a brand's identity with a clean, responsive design using specified colors and fonts, ensuring clear content presentation and easy navigation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

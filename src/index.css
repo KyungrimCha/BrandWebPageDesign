@@ -1,0 +1,41 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+@import 'tailwindcss';
+
+@theme {
+  /* Kinetic Obsidian — surface layers */
+  --color-surface-base:    #0c0e11;
+  --color-surface:         #111317;
+  --color-surface-low:     #1a1c1f;
+  --color-surface-mid:     #1e2023;
+  --color-surface-high:    #282a2d;
+  --color-surface-highest: #333538;
+
+  /* Kinetic Obsidian — text */
+  --color-on-surface:      #e2e2e6;
+  --color-on-surface-var:  #e4bfb1;
+  --color-outline:         #ab897d;
+  --color-outline-var:     #5b4137;
+
+  /* Kinetic Obsidian — primary (electric orange) */
+  --color-primary:         #ffb599;
+  --color-primary-cta:     #ff5e00;
+  --color-on-primary:      #5a1c00;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
